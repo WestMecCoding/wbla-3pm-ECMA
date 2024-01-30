@@ -115,10 +115,10 @@ img#fashion-models {
 /* LILY CSS */
 #sidebarContainer {
   font-family: "Montserrat", sans-serif;
-  color: white;
+  line-height: 2.8;
   background-color: #44a692;
   width: 25vw;
-  height: 100vh;
+  height: 110vh;
   margin-top: 2.5%;
   margin-left: 4.5%;
   float: left;
@@ -138,7 +138,7 @@ img#fashion-models {
   padding: 15px;
   background-color: #cce629;
   border-radius: 20px;
-  color: white;
+  color: darkgreen;
   text-align: center;
   margin-left: -15px;
   margin-top: -15px;
@@ -228,7 +228,7 @@ input {
 /* JAXON CSS */
 #bodyArea {
   width: 62.5vw;
-  height: 100vh;
+  height: 120vh;
   background-color: #faf0e6;
   margin-top: 2.5%;
   margin-right: 4.5%;
@@ -243,6 +243,7 @@ input {
   text-decoration: underline;
 }
 #textBody {
+  line-height: 1.8;
   font-family: "Montserrat", sans-serif;
   text-align: justify;
   letter-spacing: 0.5px;
