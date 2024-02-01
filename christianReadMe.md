@@ -4,13 +4,8 @@ Documentation for christian's contributions
 
 > below is some code for a problem i encountered
 
-```html
-
-```
 > A problem i ran into
-In the begining i had a big problem with the nesting.
-I later found that i should add another div instead of just adding the 
-image.
+>In the begining i had a big problem with the nesting. I later found that i should add another div instead of just adding the image.
 ```html
 <div id="logo">
      <div id="imgDiv">
@@ -22,10 +17,7 @@ image.
      </div>
 </div>
 ```
-> 
-I had a bit of trouble when centering the 
-img of the logo inside the logo div. I tried to use justify-content: center;
-but ran into an issue. Or rather i made a mistake,
+> I had a bit of trouble when centering the img of the logo inside the logo div. I tried to use justify-content: center; but ran into an issue. Or rather i made a mistake,
 ```css problem
 #logo {
   width: 90vw;
@@ -45,11 +37,8 @@ img#logoImg {
   height: 100%;
 }
 ```
->
-I fixed it!!!
- I ended up putting that line inside
-the img#logoImg {} css instead of the parent #logo {}.
-But i fixed it :)
+>I fixed it!!!
+>I ended up putting that line inside the img#logoImg {} css instead of the parent #logo {}. But i fixed it :)
 ```css fix
 
 #logo {
