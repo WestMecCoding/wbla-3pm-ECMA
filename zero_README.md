@@ -1,11 +1,23 @@
-# Documentation for Zero's Contribution
+# Documentation for Zero's Contribution 
 
-> Here's some info about my contrubution
+> Here's some info about my contrubution: I made the footer by using the elements of UL's and LI's for my HTML, for the css I mainly used display flex to get my items to center in the div as well as overflow hidden to keep all that information in the div.
 
-```js
-console.log("some cool code")
-```
-> below is some code for a problem
 ```html
-<div>some content</div>
+<div id="footer">
+<ul>
+    <li>one</li>
+    <li>two</li>
+    <li>three</li>
+    <li>four</li>
+</ul>
+</div>
+```
+
+```css
+#footer {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-around;
+}
 ```
